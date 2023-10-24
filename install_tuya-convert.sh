@@ -50,8 +50,8 @@ done
 
 # Update container OS
 msg "Updating container OS..."
-apt-get update >/dev/null
-apt-get -qqy upgrade &>/dev/null
+apt update >/dev/null
+apt -qqy upgrade &>/dev/null
 
 # Install prerequisites
 msg "Installing prerequisites..."
